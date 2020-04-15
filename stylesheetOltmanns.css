@@ -4,6 +4,7 @@
   color: #6E6E6E;
   font-size: 17px;
   font-weight: bold;
+  float: center;
   /*border: 1px solid #ccc;*/
   background-color: #FFFFFF;
 }
@@ -19,10 +20,10 @@
   transition: 0.3s;
 }
 
-/* Change background color of buttons on hover
+/* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #ddd;
-} */
+}
 
 /* Create an active/current tablink class */
 .tab button.active {
@@ -51,3 +52,43 @@
 .side-image {
   float: left;
 }
+.box {
+  border-radius: 25px;
+  background-color:#DCDCDC;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+  display: inline-block;
+}
+.box1 {
+  border-radius: 25px;
+  background-color:#DCDCDC;
+  width: 640px;
+  padding: 50px;
+  margin: 20px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #FF8000;
+   color: white;
+   text-align: left;
+   padding: 10px;
+}
+.button {
+  border-radius: 25px;
+  background-color: #FF8000; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*div.bild img {
+   margin-bottom:150px;
+}*/
